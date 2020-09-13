@@ -2,24 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6883" started-at="2020-07-13T17:56:21 IST" finished-at="2020-07-13T17:56:28 IST">
+  <suite name="Default suite" duration-ms="3661" started-at="2020-09-13T12:27:01 IST" finished-at="2020-09-13T12:27:05 IST">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ADM.cucumber.testRunner.Runnerclass@587d1d39]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="6883" started-at="2020-07-13T17:56:21 IST" finished-at="2020-07-13T17:56:28 IST">
-      <class name="com.ADM.test.fbLogin">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.ADM.test.fbLogin@7113b13f]" name="beforeSuite" is-config="true" duration-ms="48091" started-at="2020-07-13T17:55:33 IST" finished-at="2020-07-13T17:56:21 IST">
+    <test name="Default test" duration-ms="3661" started-at="2020-09-13T12:27:01 IST" finished-at="2020-09-13T12:27:05 IST">
+      <class name="com.ADM.cucumber.testRunner.Runnerclass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.ADM.cucumber.testRunner.Runnerclass@587d1d39]" name="setUpClass" is-config="true" duration-ms="967" started-at="2020-09-13T12:27:01 IST" finished-at="2020-09-13T12:27:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.ADM.test.fbLogin@7113b13f]" name="f" duration-ms="6780" started-at="2020-07-13T17:56:21 IST" finished-at="2020-07-13T17:56:28 IST">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ADM.cucumber.testRunner.Runnerclass@587d1d39]" name="feature" duration-ms="1347" started-at="2020-09-13T12:27:03 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-13T12:27:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reach newsfeeds in FB]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.ADM.test.fbLogin@7113b13f]" name="afterSuite" is-config="true" duration-ms="1114" started-at="2020-07-13T17:56:28 IST" finished-at="2020-07-13T17:56:29 IST">
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:com.ADM.cucumber.testRunner.Runnerclass@587d1d39]" name="writeExtentReport" is-config="true" duration-ms="86" started-at="2020-09-13T12:27:04 IST" finished-at="2020-09-13T12:27:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.ADM.test.fbLogin -->
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.ADM.cucumber.testRunner.Runnerclass@587d1d39]" name="tearDownClass" is-config="true" duration-ms="958" started-at="2020-09-13T12:27:04 IST" finished-at="2020-09-13T12:27:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.ADM.cucumber.testRunner.Runnerclass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

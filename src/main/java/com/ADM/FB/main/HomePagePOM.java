@@ -1,6 +1,5 @@
 package com.ADM.FB.main;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
@@ -18,7 +17,7 @@ public class HomePagePOM extends Initialize{
 	public static WebElement pass;
 	
 	@CacheLookup
-	@FindBy(xpath = "//input[@type='submit']")
+	@FindBy(xpath = "//*[@type='subm']")
 	public static WebElement button;
 	
 	
@@ -26,13 +25,13 @@ public class HomePagePOM extends Initialize{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void email() {
+	public void email(String id) {
 		mail.clear();
-		mail.sendKeys("adfgasdg");
+		mail.sendKeys(id);
 	}
 	
-	public void password() {
-		pass.sendKeys("adsfadsf");
+	public void password(String ps) {
+		pass.sendKeys(ps);
 	}
 	
 	public void login() {
